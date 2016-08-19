@@ -2,20 +2,28 @@
   <head>
     <meta charset="utf-8">
     <title>Capricorn Healthcare &amp; Special Opportunities Team</title>
+    <link rel="shortcut icon" href="../favicon.ico" />
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css">
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.css">
+    <link rel="stylesheet" href="../css/master.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
     <nav class="custom-nav">
       <div class="nav-wrapper">
-        <a href="/" class="brand-logo"><img src="img/CHSO.jpeg" alt="Capricorn Healthcare" class="height-100pct"/></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down height-100pct">
-          <li><a href="about.html" class="chso-green">ABOUT</a></li>
-          <li><a href="team.html" class="chso-green">TEAM</a></li>
-          <li><a href="portfolio.html" class="chso-green">PORTFOLIO</a></li>
-          <li><a href="contact.html" class="chso-green">CONTACT</a></li>
+        <a href="/" class="brand-logo"><img src="../img/CHSO.jpeg" alt="Capricorn Healthcare" class="height-100pct"/></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down height-100pct">
+          <li><a href="/about" class="chso-green">ABOUT</a></li>
+          <li><a href="/team" class="chso-green">TEAM</a></li>
+          <li><a href="/portfolio" class="chso-green">PORTFOLIO</a></li>
+          <li><a href="/contact" class="chso-green">CONTACT</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="/about" class="chso-green">ABOUT</a></li>
+          <li><a href="/team" class="chso-green">TEAM</a></li>
+          <li><a href="/portfolio" class="chso-green">PORTFOLIO</a></li>
+          <li><a href="/contact" class="chso-green">CONTACT</a></li>
         </ul>
       </div>
     </nav>
@@ -30,6 +38,7 @@
         <li class="tab"><a href="#vladimir">Vladimir Andonov</a></li>
         <li class="tab"><a href="#chris">Chris Beall</a></li>
         <li class="tab"><a href="#calvin">Calvin Nguyen</a></li>
+        <li class="tab"><a href="#phillip">Phillip Campbell</a></li>
         <li class="tab"><a href="#galym">Galym Imanbayev</a></li>
       </ul>
       <div class="tab-content">
@@ -45,16 +54,16 @@
         <div class="" id="shahab">
           <h5>Shahab Vagefi – Partner</h5>
           <p>
-            Shahab Vagefi is a Partner at CHSO. Prior to joining CHSO, Shahab was a member of Capricorn Investment Group working on private equity and debt transactions across several industries, including healthcare. Prior to Capricorn, Shahab was an investment professional in the U.S. Growth Buyout fund at The Carlyle Group – focused on middle-market buyout and growth equity investments in the technology, media and telecommunications; business services; and education sectors. Previously, Shahab worked in investment banking with Credit Suisse First Boston and JP Morgan H&amp;Q.
+            Shahab Vagefi is a Partner at CHSO. Prior to joining CHSO, Shahab was a member of the investment team at Capricorn Investment Group. Prior to Capricorn, Shahab was an investment professional in the U.S. Growth Buyout fund at The Carlyle Group – focused on middle-market buyout and growth equity investments primarily in the technology, media and telecommunications; business services; and education sectors. Previously, Shahab worked in investment banking with Credit Suisse First Boston and JP Morgan H&amp;Q.
           </p>
           <p>
             Shahab earned a joint BA-MA degree with Phi Beta Kappa honors in International Relations and International Economics at the Johns Hopkins University and the Paul H. Nitze School of Advanced International Studies (SAIS). He obtained an MBA from the Kellogg School of Management at Northwestern University.
           </p>
         </div>
         <div class="" id="michael">
-          <h5>Michael McCullough, MD – Partner</h5>
+          <h5>Michael McCullough, MD – Partner, Senior Clinical Advisor</h5>
           <p>
-            Michael McCullough, MD is a Partner at CHSO. Michael was previously a Partner at Headwaters Capital Partners and a healthcare advisor to Venrock, NanoDimension, 2U, and Vocera. Michael was Founder of QuestBridge, BeAGoodDoctor.Org and RegenMed Systems. Michael advises multiple tech oriented funds on medical investments including Greylock Partners and Redpoint Ventures.  Michael was elected a Kauffman Fellow in 2009 and an Ashoka Fellow in 2004.
+            Michael McCullough, MD is a Partner and Senior Clinical Advisor at CHSO. Michael was previously a Partner at Headwaters Capital Partners and a healthcare advisor to Venrock, NanoDimension, 2U, and Vocera. Michael was Founder of QuestBridge, BeAGoodDoctor.Org and RegenMed Systems. Michael advises multiple tech oriented funds on medical investments including Greylock Partners and Redpoint Ventures.  Michael was elected a Kauffman Fellow in 2009 and an Ashoka Fellow in 2004.
           </p>
           <p>
             Michael earned his BA from Stanford University, Phi Beta Kappa, in Human Biology. Michael obtained a M.Sc. in Diagnostic Imaging from Oxford University as a Rhodes Scholar and read for a M.A. in Philosophy, Politics and Economics. Michael obtained his MD from UCSF and Emergency Medicine board certification from Stanford. Michael is a part-time Assistant Professor of Emergency Medicine at Stanford and UCSF affiliated trauma centers.  He serves on the board of the Dalai Lama Foundation.
@@ -105,6 +114,15 @@
             He holds a bachelor of business administration in Finance, with honors, from the Goizueta Business School at Emory University.
           </p>
         </div>
+        <div class="" id="phillip">
+          <h5>Phillip Campbell – Associate</h5>
+          <p>
+            Phillip Campbell is an Associate at CHSO.  Prior to joining CHSO, Phillip was an Associate at CIT Group in New York City, where he focused on leverage finance and M&amp;A advisory services in healthcare.  Prior to CIT, Phillip was an Analyst at HJ Sims, a merchant bank exclusively operating in the senior living space.
+          </p>
+          <p>
+            Phillip holds a bachelor of science in Finance &amp; Accounting from the Carroll School of Management at Boston College.
+          </p>
+        </div>
         <div class="" id="galym">
           <h5>Galym Imanbayev – Associate</h5>
           <p>
@@ -119,10 +137,11 @@
 
     <footer class="grey lighten-4 page-footer margin-top-0 center-align">
       <div class="container">
-        <a href="terms.html">Terms of Use</a> | <a href="disclosures.html">Disclosures</a>
+        <a href="../terms">Terms of Use</a> | <a href="../disclosures">Disclosures</a>
         <p class="margin-tb-0">&copy; CHSO Management, LLC. All rights reserved</p>
       </div>
     </footer>
 
-    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.js"></script>
+    <script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../bower_components/materialize/dist/js/materialize.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>

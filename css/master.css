@@ -13,8 +13,17 @@ html{
   font-family: Garamond !important;
 }
 
-.min-page-height{
-  min-height: 500px
+p {
+  font-size: 16px;
+}
+
+strong{
+  font-weight: bold !important;
+}
+
+.home-btn:hover{
+  background-color: rgb(67,88,73) !important;
+  color: #fff !important;
 }
 
 ul.tabs{
@@ -24,6 +33,7 @@ ul.tabs{
   width: 25% !important;
   height: auto;
   margin-bottom: 50px;
+  white-space: normal !important;
 }
 
 ul.tabs li a{
@@ -66,6 +76,31 @@ ul.tabs li a.active{
   border-top: none !important;
 }
 
+
+.card .card-image img{
+  width: auto !important;
+  margin: auto;
+}
+
+.card-content{
+  text-align: center;
+  font-size: 17px;
+}
+
+@media(max-width: 780px){
+  .card .card-image img{
+    width: 150px !important;
+  }
+}
+
+.card{
+  min-height: 240px;
+}
+
+nav a {
+  color: rgb(67,88,73);
+}
+
 /*colors*/
 
 .chso-green{
@@ -94,6 +129,17 @@ ul.tabs li a.active{
   text-align: center;
 }
 
+.home-pg-text {
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  padding-top: 60px
+}
+
+@media(max-width: 600px){
+  .home-pg-text{
+    font-size: 21px
+  }
+}
+
 /*about page*/
 .about-intro-card {
   border-radius: 4px;
@@ -101,6 +147,12 @@ ul.tabs li a.active{
   color: white;
   padding: 20px;
   margin: auto !important;
+}
+
+@media(max-width: 600px){
+  .about-intro-card{
+    padding: 15px;
+  }
 }
 
 /*team page*/
@@ -113,14 +165,53 @@ ul.tabs li a.active{
 
 /*portfolio page*/
 .port-logo{
-  max-width: 175px;
+  /*max-width: 175px;*/
   text-align: center;
   margin: auto;
-  padding: 10px 10px 5px 10px;
+  padding: 20px 15px 5px 15px;
+}
+
+.landscape-logos{
+  max-height: 100px;
+  width: auto !important;
+  margin: auto;
+}
+
+.portfolio-pg .tab{
+  font-size: 18px
+}
+.portfolio-pg .tab-content{
+  width: 75%;
+}
+.portfolio-pg ul.tabs{
+  width: 20% !important;
+}
+
+@media(max-width: 600px){
+  .portfolio-pg .tab-content{
+    width: 100%;
+  }
+  .portfolio-pg ul.tabs{
+    width: 100% !important;
+    margin-bottom: 20px !important
+  }
+  .portfolio-pg .tab a{
+    text-align: center;
+  }
 }
 
 
+@media(max-width: 780px){
+  .landscape-logos{
+    max-height: none;
+  }
+}
+
 /*heights and widths*/
+
+.min-page-height{
+  min-height: 500px
+}
 
 .height-100pct{
   height: 100%;
@@ -129,6 +220,8 @@ ul.tabs li a.active{
 .height-500px{
   height: 500px;
 }
+
+.max-width-100pct { max-width: 100%; }
 
 /*margin and padding*/
 
@@ -143,6 +236,10 @@ ul.tabs li a.active{
 .margin-tb-30{
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.margin-tb-10{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .margin-top-0 { margin-top: 0 !important; }
@@ -162,6 +259,5 @@ ul.tabs li a.active{
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5)
 }
 
-.font-20{
-  font-size: 20px;
-}
+.font-20 { font-size: 20px; }
+.font-32 { font-size: 32px; }
